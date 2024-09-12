@@ -181,7 +181,11 @@ body{
             &::before{
                 content: "1";
                 font-size: 50px;
-                line-height: 1;
+                line-height: 0.8;
+                margin-top: -10px;
+            }
+            @media (max-width: 376px) {
+                align-items: flex-start;
             }
         }
         &_second{
@@ -191,7 +195,11 @@ body{
             &::before{
                 content: "2";
                 font-size: 50px;
-                line-height: 1;
+                line-height: 0.8;
+                margin-top: -10px;
+            }
+            @media (max-width: 376px) {
+                align-items: flex-start;
             }
         }
         &_third{
@@ -201,7 +209,11 @@ body{
             &::before{
                 content: "3";
                 font-size: 50px;
-                line-height: 1;
+                line-height: 0.8;
+                margin-top: -10px;
+            }
+            @media (max-width: 376px) {
+                align-items: flex-start;
             }
         }
         &_fourth{
@@ -211,7 +223,11 @@ body{
             &::before{
                 content: "4";
                 font-size: 50px;
-                line-height: 1;
+                line-height: 0.8;
+                margin-top: -10px;
+            }
+            @media (max-width: 376px) {
+                align-items: flex-start;
             }
         }
     }
